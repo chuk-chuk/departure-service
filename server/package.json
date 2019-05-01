@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node back-end server for departures service",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "chai": "4.2.0",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "nodemon": "1.19.0"
+  },
+  "devDependencies": {
+    "mocha": "6.1.4"
+  },
+  "scripts": {
+    "test": "mocha --exit --timeout 10000",
+    "start": "nodemon index.js"
+  },
+  "author": "Yulia",
+  "license": "ISC"
+}
